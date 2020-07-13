@@ -11,7 +11,7 @@ public class ViewWelcomeController extends AbstractController {
 	@Override
 	protected ModelAndView handleRequestInternal(HttpServletRequest request,
 		HttpServletResponse response) throws Exception {
-		System.out.println("Hello java");
+		System.out.println("Hello-world");
 		ModelAndView mav = null;
 		mav = new ModelAndView();
 		mav.setViewName("welcome");
